@@ -1,0 +1,70 @@
+h1 {
+  border-style: solid;
+  border-width: 5px;
+  padding: 20px; 
+  text-align: center;
+  color: black;
+  width: 20%;
+
+
+}
+
+body {
+  background-color: burlywood;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 11em;
+  
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+
+ul.navbar a{
+  text-decoration: none
+}
+
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  /*margin-left:0.5em;
+  margin-right:0 */
+  padding: 0.3em;
+  border-right: 1em solid black }
+
+
+ul.navbar li:hover{
+  background: rgb(238, 167, 85);
+}
+
+
+
+
+.mother{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-style: solid;
+  border-width: 10px;
+  padding: 10px;
+  background-color: coral;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mother .daughter{
+  border-style: solid;
+  border-width: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(235, 198, 79);
+}
+
+
+#jennie, #lisa, #rose {
+  color: rgb(55, 144, 179);
+}
